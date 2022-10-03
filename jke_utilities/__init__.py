@@ -1,3 +1,6 @@
-import linear_interpolation
-import rolling_average
-import subplot_by_category
+import pandas as pd
+import numpy as np
+
+from jke_utilities.linear_interpolation import linear_interpolation
+from jke_utilities.rolling_average import rolling_average
+from jke_utilities.subplot_by_category import subplot_by_category
