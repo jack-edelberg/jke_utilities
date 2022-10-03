@@ -1,6 +1,10 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-import seaborn
+import seaborn as sns
+
+fontdict_plot_title = \
+    {'weight':'bold',
+     'size':'large'}
 
 def subplot_by_category(df:pd.DataFrame, category:str,
                         x_var:str, y_var:str, hue_var:str,
